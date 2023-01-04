@@ -22,6 +22,11 @@
   "bugs": {
     "url": "https://github.com/Nataliya-grish/ajs-unittest-1/issues"
   },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!@atlaskit)"
+    ]
+  },
   "homepage": "https://github.com/Nataliya-grish/ajs-unittest-1#readme",
   "description": "",
   "devDependencies": {
